@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - ./gradlew bootRepackage
+
+artifacts:
+  files:
+    - build/libs/gs-accessing-data-rest-0.1.0.jar
