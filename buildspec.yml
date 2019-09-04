@@ -11,4 +11,4 @@ phases:
 
 artifacts:
   files:
-    - build/libs/gs-accessing-data-rest-0.1.0.jar
+    - complete/build/libs/gs-accessing-data-rest-0.1.0.jar
