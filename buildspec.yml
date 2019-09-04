@@ -6,7 +6,8 @@ phases:
       java: openjdk8
   build:
     commands:
-      - ./gradlew bootRepackage
+      - cd complete
+      - ./gradlew bootJar
 
 artifacts:
   files:
